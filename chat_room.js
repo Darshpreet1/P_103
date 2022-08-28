@@ -29,7 +29,7 @@ user_name = localStorage.getItem("user_name");
 
        function redirectToRoomName(){
         localStorage.setItem("Room_name", room_name);
-        window.location = "chat_room.html";
+        window.location = "chat_page.html";
        }
        function logout()
        {
